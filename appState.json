@@ -1,0 +1,123 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "83061ae2-4626-4a80-b674-24333d352889": {
+        "id": "83061ae2-4626-4a80-b674-24333d352889",
+        "parent": null,
+        "name": "induupythonjuly31.py",
+        "type": "PYTHON_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "induupythonjuly31.py",
+        "cursor": {
+          "lineNumber": 1,
+          "column": 1
+        },
+        "config": {
+          "runtime": "python3.8",
+          "handler": "handler",
+          "timeout": 60,
+          "memory": 128,
+          "layers": [],
+          "name": "induupythonjuly31"
+        },
+        "triggers": [
+          {
+            "resourceName": "apigusEast1induuuPythonJULY31qainduany",
+            "config": {}
+          }
+        ]
+      }
+    },
+    "openFiles": [
+      "83061ae2-4626-4a80-b674-24333d352889"
+    ],
+    "currentFileId": "83061ae2-4626-4a80-b674-24333d352889",
+    "resources": {
+      "apigusEast1induuuPythonJULY31qainduany": {
+        "name": "apigusEast1induuuPythonJULY31qainduany",
+        "type": "API_GATEWAY",
+        "config": {
+          "selectedRegion": "us-east-1",
+          "apiType": 1,
+          "apiMode": 0,
+          "apiName": "induuu-python-JULY31",
+          "endpointType": "EDGE",
+          "resourceMode": 0,
+          "resourceName": "qa/indu",
+          "resourcePath": "/qa/indu",
+          "restMethod": "ANY",
+          "proxyIntegration": false,
+          "enableCORS": false,
+          "stageMode": 0,
+          "stageName": "test",
+          "mode": 0
+        }
+      },
+      "ddbinduTestPwithjuly31CLI": {
+        "name": "ddbinduTestPwithjuly31CLI",
+        "type": "DynamoDB",
+        "config": {
+          "mode": 0,
+          "table": {
+            "arn": "",
+            "name": "indu-testPwith_july31CLI",
+            "partitionKey": "induddbP",
+            "partitionKeyType": "S",
+            "hasSortKey": true,
+            "sortKey": "induddbS",
+            "sortKeyType": "S",
+            "payPerRequest": true,
+            "mode": 0
+          }
+        }
+      }
+    },
+    "customTemplate": {
+      "syntax": "JSON",
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [
+      {
+        "lambdaId": "all",
+        "varKey": "SIGMA_AWS_ACC_ID",
+        "varValue": null,
+        "shouldPersist": false,
+        "displayOnly": false,
+        "editable": false
+      }
+    ],
+    "packageJSON": {
+      "dependencies": {
+        "boto3": {
+          "name": "boto3",
+          "language": "python",
+          "version": "1.12.27",
+          "dev": true,
+          "notRemovable": false
+        }
+      }
+    }
+  },
+  "PROJECT_META": {
+    "sigmaVersion": "1.4.1.4",
+    "projectName": "induupythonjuly31",
+    "projectDescription": "",
+    "projectVersion": "1.0.0",
+    "projectRegion": "us-east-1",
+    "platform": "AWS",
+    "language": "python",
+    "platformRegions": {},
+    "lastSave": 1596188506495
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "induupythonjuly31",
+      "url": "https://github.com/Indunil1992/induupythonjuly31"
+    }
+  }
+}
